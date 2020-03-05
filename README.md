@@ -9,14 +9,9 @@
 * 安装`scflog`：
 
 ```text
-pip install scflog
+npm install scflog
 ```
 
-安装时，可能需要`root`权限，否则可能无法使用。安装完成，可以执行`scflog -v`查看是否安装成功：
-
-```text
-scflog 0.1.1
-```
 
 * 部署实时日志组件，新建项目，并且建立`serverless.yaml`，内容：
 
@@ -82,7 +77,7 @@ DEBUG ─ Removing any previously deployed service. service-laabz6zm
 
 * 初始化项目
 
-`scflog init`
+`scflog init -l python`
 
 * 创建`index.py`文件以及`serverless.yaml`文件：
 
